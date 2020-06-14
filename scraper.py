@@ -59,7 +59,6 @@ def get_palettes(url):
         
     
 if __name__ == "__main__":
-    # pprint(get_palettes('https://www.color-hex.com/color-palettes/?page=2'))
     print(get_palettes('https://www.color-hex.com/color-palettes/?page=2')['Buddy 2'])
     # raw_html = simple_get('https://www.color-hex.com/color-palettes/popular.php')
     
